@@ -1,0 +1,12 @@
+{
+    "name": "ramm/rabbitmq_client",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Ramm\\RabbitmqClient\\": "src/"
+        }
+    },
+    "require": {
+        "php-amqplib/php-amqplib": "^3.5"
+    }
+}
